@@ -1,0 +1,69 @@
+body {
+  background-image: url("https://cdn.dribbble.com/userupload/7601287/file/original-2cfea1e8675900cd384bfe88d46f6b6d.png?compress=1&resize=1200x900");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.title {
+  color: white;
+  padding-bottom: 40px;
+}
+
+.title, p {
+  text-align: justify;
+}
+
+.feature-icon {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 0.75rem;
+  background-color: #020E5D !important;
+}
+
+.selfie {
+  transform: rotate(90deg);
+  border-radius: 50%;
+  margin-top: 100px;
+}
+
+.carousel-item img {
+  width: 330px; /* Adjust the width as desired */
+  height: 500px; /* Adjust the height as desired */
+  max-height: 100%;
+  margin: auto;
+  display: block;
+}
+
+.carousel-indicators {
+  margin-top: -490px;
+}
+
+#carouselExampleIndicators {
+  padding-bottom: 200px;
+}
+
+/* Custom CSS styles for carousel buttons and indicators */
+.carousel-control-prev,
+.carousel-control-next {
+  filter: invert(100%);
+}
+
+.carousel-indicators li {
+  background-color: white;
+}
+
+p {
+  font-weight: bold;
+  color: white;
+}
+
+.icon-link {
+  font-weight: bold;
+  color: #020E5D;
+  /* Add any other desired styles */
+}
+
+h3, h2 {
+  font-weight: bold;
+}
