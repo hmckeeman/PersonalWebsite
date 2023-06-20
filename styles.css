@@ -22,7 +22,7 @@ body {
 }
 
 .selfie {
-  transform: rotate(90deg);
+  /* transform: rotate(90deg); */
   border-radius: 50%;
   margin-top: 100px;
 }
